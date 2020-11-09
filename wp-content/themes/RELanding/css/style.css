@@ -84,8 +84,8 @@ button, a{
 .footerNav{
     position: fixed;
     bottom: 0;
-    left: 20%;
-    right: 20%;
+    left: 30vw;
+    right: 30vw;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -110,6 +110,8 @@ button, a{
 
 .carousel{
     position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 .carousel-item{
@@ -174,13 +176,20 @@ button, a{
 }
 
 
-
 body{
     margin: 0;
     padding: 0;
-    /* background-color: black; */
+    background-color: black;
     background:linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,1)), url('../assets/img/4.jpg');
-    background-size: contain !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
-
+    overflow-x: hidden;
 }
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+

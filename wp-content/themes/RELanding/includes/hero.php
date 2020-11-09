@@ -17,11 +17,11 @@
             <div class="carousel-item" style="background:url(<?php echo get_theme_file_uri('assets/img/5.jpg') ?>)">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <a class="carousel-control-prev d-none d-sm-none d-md-none d-lg-block" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon fontSize25" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <a class="carousel-control-next d-none d-sm-none d-md-none d-lg-block" href="#carouselExampleCaptions" role="button" data-slide="next">
             <span class="carousel-control-next-icon fontSize25" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
