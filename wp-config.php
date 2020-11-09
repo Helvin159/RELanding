@@ -26,7 +26,7 @@ if(strstr($_SERVER['SERVER_NAME'], '150cps.local')){
 	define( 'DB_PASSWORD', 'root' );
 	define( 'DB_HOST', 'localhost' );
 }else{
-	define( 'DB_NAME', 'kmmkcamy_selffit' );
+	define( 'DB_NAME', 'kmmkcamy_150CPS' );
 	define( 'DB_USER', 'kmmkcamy_helvin' );
 	define( 'DB_PASSWORD', 'Dora0411!?!' );
 	define( 'DB_HOST', 'localhost' );
