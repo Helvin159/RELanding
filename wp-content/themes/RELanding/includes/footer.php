@@ -1,4 +1,4 @@
-<nav class="footerNav navbar navbar-expand-lg navbar-dark d-none d-sm-block d-md-block d-lg-block" style="background:rgba(0,0,0,0.4)">
+<nav class="footerNav navbar navbar-expand-lg navbar-dark " style="background:rgba(0,0,0,0.4)">
     <div class="navbar-nav fontSize22 millgoudy ">
       <ul class="navbar-nav m-auto">
         <li class="nav-item">
