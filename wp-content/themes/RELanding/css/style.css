@@ -107,8 +107,6 @@ button, a{
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center center;
-    z-index: -1;
-    /* background-color: #000000; */
 }
 
 
@@ -144,7 +142,7 @@ button, a{
 
 #closeBtn{
     position: absolute;
-    top: 5%;
+    top: .5%;
     right: 10%;
     font-size: 50px;
 }

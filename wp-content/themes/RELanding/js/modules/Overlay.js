@@ -1,26 +1,49 @@
-import $ from 'jquery'
 
 class overlay{
 
     // Constructor
 constructor(){
-    // const amenities = document.querySelector('#amenities');
-    this.amenities = $('#amenities');
-    // const amenitiesOverlay = document.querySelector('#amenitiesOverlay');
-    this.amenitiesOverlay = $('#amenitiesOverlay');
+    // Buttons
+    const amenitiesBtn = document.querySelector('#amenitiesBtn');
+    const picsBtn = document.querySelector('#picsBtn');
+    const detailsBtn = document.querySelector('#details');
+    const contactBtn = document.querySelector('#contact');
+    const closeButton = document.querySelectorAll('.closeOverlay');
+
+    // Overlay
+    const amenitiesOverlay = document.querySelector('#amenitiesOverlay');
+    const picsOverlay = document.querySelector('#picsOverlay');
+    const detailsOverlay = document.querySelector('#detailsOverlay');
+    const contactOverlay = document.querySelector('#contactOverlay');
+    
+    // Initiate Events
+    this.events()
+    
 }
 
     // Events
 events(){
-    this.amenities.on("click", alert('hi'))
+    amenitiesBtn.addEventListener("click", ()=>{
+        amenitiesOverlay.classList.add('overlayOn')
+        document.querySelector('body').style.overflowY = 'hidden'
+    })
+    document.querySelector('#details').addEventListener("click", ()=>{
+        detailsOverlay.classList.add('overlayOn')
+        document.querySelector('body').style.overflowY = 'hidden'
+    })    
+
+    document.querySelector('#picsBtn').addEventListener("click", ()=>{
+        picsOverlay.classList.add('overlayOn')
+        document.querySelector('body').style.overflowY = 'hidden'
+    })
+
+    document.querySelector('#contact').addEventListener("click", ()=>{
+        contactOverlay.classList.add('overlayOn')
+        document.querySelector('body').style.overflowY = 'hidden'
+    })
+     
 }
 
-
-    // Methods
-    overlayOn(){
-        this.amenitiesOverlay.addClass('overlayOn');
-        console.log('hi')
-    }
 }
 
 export default overlay;

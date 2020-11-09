@@ -1,10 +1,10 @@
-<div id="picsOverlay" class="overlay py-5">
+<div id="picsOverlay" class="overlay">
 
     <div class="container py-2">
-        <h1 class="quicksand display-2 white">Pictures</h1>
+        <h1 class="quicksand white">Pictures</h1>
         <span id="closeBtn" class="closeOverlay white"><i class="far fa-window-close"></i></span>
     </div>
-    <div class="container mt-5">
+    <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>

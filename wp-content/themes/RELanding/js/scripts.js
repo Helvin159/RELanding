@@ -1,5 +1,4 @@
 import '../css/style.css'
-import $ from 'jquery'
 
 // Modules
 import overlay from './modules/Overlay';
