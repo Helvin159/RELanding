@@ -70,6 +70,9 @@ button, a{
     color: #F4F4F6;
 }
 
+.white{
+    color: white;
+}
 
 /* Nav */
 
@@ -96,7 +99,7 @@ button, a{
 
 /* Hero */
 
-.frontHero .carousel .carousel-item {
+.frontHero{
     margin: 0 !important;
     padding: 0 !important;
     height: 100vh;
@@ -108,32 +111,6 @@ button, a{
     /* background-color: #000000; */
 }
 
-.carousel{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-}
-
-.carousel-item{
-    transition: transform 1.35s ease-in-out,
-    opacity .5s ease-in-out
-}
-
-.carousel-control-prev {
-    position: absolute;
-    top: 60%;
-    left: 90%;
-    width: 2%;
-    font-size: 30px;
-}
-
-.carousel-control-next{
-    position: absolute;
-    top: 70%;
-    right: 2.5%;
-    width: 2%;
-    font-size: 30px;
-}
 
 .frontHeroText{
     position: absolute;
@@ -165,6 +142,12 @@ button, a{
     /* Specify a stack order in case you're using a different order for other elements */
 }
 
+#closeBtn{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 50px;
+}
 
 .overlayOn {
     display: block;
