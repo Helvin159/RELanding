@@ -51,6 +51,13 @@ p{
     line-height: 40px;
 }
 
+button, a{
+     font-family: sorts-mill-goudy,
+     serif;
+     font-style: normal;
+     font-weight: 500;
+}
+
 .frontHeroText h1,
 .frontHeroText h2 {
     text-shadow: 2px 2px 8px rgba(0,0,0,0.65);
@@ -106,7 +113,7 @@ p{
 }
 
 .carousel-item{
-    transition: transform 1.5s ease-in-out,
+    transition: transform 1.35s ease-in-out,
     opacity .5s ease-in-out
 }
 
