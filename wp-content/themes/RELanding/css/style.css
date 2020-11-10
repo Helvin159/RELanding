@@ -44,7 +44,7 @@
 }
 
 p{
-    line-height: 40px;
+    line-height: 38px;
 }
 
 a:hover{
@@ -171,7 +171,7 @@ margin: 0;
     bottom: 0;
     overflow: scroll;
     overflow-x:hidden ;
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color: rgba(0, 0, 0, 0.90);
     /* Black background with opacity */
     z-index: 2;
     /* Specify a stack order in case you're using a different order for other elements */
