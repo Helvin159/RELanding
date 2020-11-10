@@ -90,14 +90,7 @@ button, a{
     padding: 2.5% 2.5%;
 }
 
-.footerNav{
-    position: fixed;
-    bottom: -1%;
-    left: 30vw;
-    right: 30vw;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
+
 
 .navbar-brand img{
     max-width: 75%;
@@ -113,7 +106,7 @@ button, a{
     margin: 0;
     padding: 0 ;
     height: 100vh ;
-    min-height: 100vh ;
+    height: 100vh ;
     width: 100vw ;
     min-width: 100vw;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
@@ -175,6 +168,7 @@ margin: 0;
     right: 0;
     bottom: 0;
     overflow: scroll;
+    overflow-x:hidden ;
     background-color: rgba(0, 0, 0, 0.80);
     /* Black background with opacity */
     z-index: 2;
@@ -217,32 +211,76 @@ html{
 
 /* Extra small devices (phones, 400px and down) */
 @media only screen and (max-width: 414px) {
-.carouselContainer{
-    position: absolute;
-    top: 25%;
-}
+    .carouselContainer{
+        position: relative;
+        top: 25%;
+    }
 
+    .footerNav {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: aut0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 414px) {
-.carouselContainer {
-    position: absolute;
-    top: 25%;
-}
+    .carouselContainer {
+        position: relative;
+        top: 25%;
+    }
+
+    .footerNav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: aut0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .carouselContainer {
-      position: relative;
-      top: auto;
-  }
+    .carouselContainer {
+        position: relative;
+        top: 25%;
+        width: auto;
+    }
+  
+    .footerNav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: auto;
+        width: 25%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .carouselContainer {
+        position: relative;
+        top: auto;
+        width: auto;
+    }
     
+    .footerNav {
+        position: absolute;
+        bottom: 0;
+        left: 35vw;
+        right: 35vw;
+        width: auto;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
 
 }
 
