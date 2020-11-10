@@ -219,11 +219,11 @@ html{
     }
 
     .footerNav {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
-        width: aut0;
+        width: auto;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
@@ -237,7 +237,7 @@ html{
     }
 
     .footerNav {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
@@ -256,7 +256,7 @@ html{
     }
   
     .footerNav {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: 0;
         right: auto;
