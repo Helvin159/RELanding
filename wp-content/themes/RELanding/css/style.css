@@ -273,18 +273,28 @@ html{
         top: auto;
         width: auto;
     }
-    
-    .footerNav {
-        position: absolute;
-        bottom: 0;
-        left: 35vw;
-        right: 35vw;
-        width: auto;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-    }
+        .footerNav {
+            position: absolute;
+            bottom: 0;
+            left: 30vw;
+            right: 30vw;
+            width: auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+        .footerNav {
+            position: absolute;
+            bottom: 0;
+            left: 35vw;
+            right: 35vw;
+            width: auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+}

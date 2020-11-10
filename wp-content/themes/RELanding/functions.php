@@ -14,9 +14,9 @@ function writer (){
   } else{
       // CSS
     //   wp_enqueue_style('my-style', get_theme_file_uri('/css/styles.css'), null, '1.0', 'all');
-      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.28dcc1781a13f791071d.css'), null, '1.0', 'all');
+      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.ef406ce0775c9ec28759.css'), null, '1.0', 'all');
       // wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/undefined'), NULL, '1.0', true);
-      wp_enqueue_script('main-writer-scripts', get_theme_file_uri('/bundled-assets/scripts.28dcc1781a13f791071d.js'), NULL, '1.0', true);
+      wp_enqueue_script('main-writer-scripts', get_theme_file_uri('/bundled-assets/scripts.ef406ce0775c9ec28759.js'), NULL, '1.0', true);
     }
 
   // Jquery
