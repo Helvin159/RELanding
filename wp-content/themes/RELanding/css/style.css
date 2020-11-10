@@ -274,7 +274,7 @@ html{
         width: auto;
     }
         .footerNav {
-            position: absolute;
+            position: fixed;
             bottom: 0;
             left: 30vw;
             right: 30vw;
