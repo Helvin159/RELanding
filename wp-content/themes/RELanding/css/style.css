@@ -169,6 +169,7 @@ margin: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    opacity: 1;
     overflow: scroll;
     overflow-x:hidden ;
     background-color: rgba(0, 0, 0, 0.90);
@@ -193,6 +194,7 @@ margin: 0;
 
 .overlayOn {
     display: block;
+
     transition: .3s ease-in;
 }
 
@@ -238,6 +240,14 @@ html{
     .largeH1{
         display: none;
     }
+
+    .frontHeroText {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        color: white;
+        z-index: 1;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -266,6 +276,14 @@ html{
     .largeH1 {
     display: none;
     }
+
+    .frontHeroText {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        color: white;
+        z-index: 1;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -288,8 +306,8 @@ html{
     
     .frontHero{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
-    url('../assets/img/4.jpg');
-    background-position: bottom center;
+    url('../assets/img/3.jpg');
+    background-position: right center;
     }
 
     .largeH1 {
@@ -298,6 +316,14 @@ html{
 
     .smallH1{
         display: none;
+    }
+
+    .frontHeroText {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        color: white;
+        z-index: 1;
     }
 }
 
@@ -331,6 +357,14 @@ html{
     .smallH1 {
         display: none;
     }
+
+    .frontHeroText {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        color: white;
+        z-index: 1;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -357,5 +391,13 @@ html{
 
     .smallH1 {
     display: none;
+    }
+
+    .frontHeroText {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        color: white;
+        z-index: 1;
     }
 }
