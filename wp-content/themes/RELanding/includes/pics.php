@@ -1,10 +1,8 @@
 <div id="picsOverlay" class="overlay">
-
-    <div class="container py-2">
-        <h1 class="quicksand white">Pictures</h1>
+    <div class="container">
         <span id="closeBtn" class="closeOverlay white"><i class="far fa-window-close"></i></span>
     </div>
-    <div class="container">
+    <div class="container py-4 carouselContainer">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>

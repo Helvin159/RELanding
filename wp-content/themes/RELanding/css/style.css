@@ -1,8 +1,5 @@
   @import url("https://use.typekit.net/syb5zbi.css");
 
-
-
-
 /* Typography */
 
 .poppins{
@@ -18,7 +15,6 @@
     font-style: normal;
     font-weight: 300;
 }
-
 
 .millgoudy{
     font-family: sorts-mill-goudy,
@@ -51,6 +47,12 @@ p{
     line-height: 40px;
 }
 
+a:hover{
+    transition: .2s ease-in;
+    color: #dc94ac;
+    text-decoration: none;
+}
+
 button, a{
      font-family: sorts-mill-goudy,
      serif;
@@ -72,6 +74,10 @@ button, a{
 
 .white{
     color: white;
+}
+
+.pink{
+    color:#dc94ac;
 }
 
 /* Nav */
@@ -97,13 +103,21 @@ button, a{
     max-width: 75%;
 }
 
+.nav-link:hover{
+    color: #dc94ac !important; 
+}
+
 /* Hero */
 
 .frontHero{
     margin: 0;
     padding: 0 ;
     height: 100vh ;
+    min-height: 100vh ;
     width: 100vw ;
+    min-width: 100vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
+    url('../assets/img/1.jpg');
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center center;
@@ -118,6 +132,33 @@ button, a{
     z-index: 1;
 }
 
+/* Carousel */
+.carousel-control-prev-icon{
+    color: #dc94ac !important;
+}
+
+/* Contact Overlay Stuff */
+.submitBtn{
+    background-color:#dc94ac;
+}
+
+.contactUl{
+    list-style-type: none;
+}
+
+.contactLi{
+padding: 0;
+margin: 0;
+}
+
+/* Contact Card */
+.cardImg{
+    height: 250px;
+    background: url('../assets/img/Headshot.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 /* Overlay */
 .overlay {
@@ -140,22 +181,24 @@ button, a{
     /* Specify a stack order in case you're using a different order for other elements */
 }
 
-#closeBtn{
+.closeOverlay {
     position: absolute;
     top: .5%;
-    right: 10%;
+    right: 5%;
     font-size: 50px;
+    cursor: pointer;
+}
+
+.closeOverlay:hover{
+    cursor: pointer;
+    color:rgba(220,148,172,1);
+    transition: .20s ease-in-out;
 }
 
 .overlayOn {
     display: block;
     transition: .3s ease-in;
 }
-
-.noScroll {
-    overflow: hidden;
-}
-
 
 body{
     margin: 0;
@@ -174,17 +217,27 @@ html{
 
 /* Extra small devices (phones, 400px and down) */
 @media only screen and (max-width: 414px) {
+.carouselContainer{
+    position: absolute;
+    top: 25%;
+}
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 414px) {
-
+.carouselContainer {
+    position: absolute;
+    top: 25%;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
+  .carouselContainer {
+      position: relative;
+      top: auto;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
