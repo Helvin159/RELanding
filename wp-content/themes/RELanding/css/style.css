@@ -227,6 +227,10 @@ html{
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
+
+    .frontHero {
+        background-position: right center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -244,6 +248,10 @@ html{
         width: auto;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+    }
+        
+    .frontHero {
+        background-position: right center;
     }
 }
 
@@ -264,6 +272,9 @@ html{
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
+
+
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -282,7 +293,10 @@ html{
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
         }
+    .frontHero {
+        background-position: center center;
 
+    }
 
 }
 
