@@ -227,9 +227,16 @@ html{
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
+    
 
     .frontHero {
-        background-position: right center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
+    url('../assets/img/4.jpg');
+        background-position: bottom center;
+    }
+
+    .largeH1{
+        display: none;
     }
 }
 
@@ -251,7 +258,13 @@ html{
     }
         
     .frontHero {
-        background-position: right center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
+        url('../assets/img/4.jpg');
+        background-position: bottom center;
+    }
+
+    .largeH1 {
+    display: none;
     }
 }
 
@@ -272,9 +285,20 @@ html{
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
-
-
     
+    .frontHero{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
+    url('../assets/img/4.jpg');
+    background-position: bottom center;
+    }
+
+    .largeH1 {
+        display: block;
+    }
+
+    .smallH1{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -284,31 +308,54 @@ html{
         top: auto;
         width: auto;
     }
-        .footerNav {
-            position: fixed;
-            bottom: 0;
-            left: 30vw;
-            right: 30vw;
-            width: auto;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
+    .footerNav {
+        position: fixed;
+        bottom: 0;
+        left: 27vw;
+        right: 27vw;
+        width: auto;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         }
     .frontHero {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
+        url('../assets/img/3.jpg');
         background-position: center center;
 
     }
-
+    
+    .largeH1 {
+        display: block;
+    }
+    
+    .smallH1 {
+        display: none;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-        .footerNav {
-            position: absolute;
-            bottom: 0;
-            left: 35vw;
-            right: 35vw;
-            width: auto;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-        }
+    .footerNav {
+        position: absolute;
+        bottom: 0;
+        left: 34vw;
+        right: 34vw;
+        width: auto;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .frontHero {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.3)),
+            url('../assets/img/3.jpg');
+        background-position: center center;
+
+    }
+    .largeH1 {
+        display: block;
+    }
+
+    .smallH1 {
+    display: none;
+    }
 }

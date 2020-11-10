@@ -8,7 +8,7 @@
           <button id="amenitiesBtn" class="nav-link btn fontSize22" >Amenities</button>      
         </li>
         <li class="nav-item">
-          <button id="details" class="nav-link btn fontSize22" >Details</button>
+          <button id="details" class="nav-link btn fontSize22" >Description</button>
         </li>
         <li class="nav-item">
           <button id="contact" class="nav-link btn fontSize22" >Contact</button>
