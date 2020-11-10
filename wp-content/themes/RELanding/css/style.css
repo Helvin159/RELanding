@@ -276,8 +276,8 @@ html{
         .footerNav {
             position: fixed;
             bottom: 0;
-            left: 30vw;
-            right: 30vw;
+            left: 28vw;
+            right: 28vw;
             width: auto;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
